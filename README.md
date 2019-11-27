@@ -8,10 +8,10 @@ This is needed because quite a few database within HSDP get the name `hsdp_pg`
 The dumps are gzipped and AES encrypted using OpenSSL.
 
 ## Dependencies
-`pg_dump` -- minumum 9.6
-`gzip`
-`openssl` -- minimum 1.0.1
-`s3cmd` -- minimum 1.6.0
+* `pg_dump` -- minumum 9.6
+* `gzip`
+* `openssl` -- minimum 1.0.1
+* `s3cmd` -- minimum 1.6.0
 
 ## Configuration variables
 
