@@ -41,13 +41,13 @@ $ openssl enc -in ${some_file.gz.aes} -aes-256-cbc -d -pass file:${password_file
 
 Author
 ======
-Andy Lo-A-Foe <andy.loafoe@aemian.com>
+Andy Lo-A-Foe <andy.lo-a-foe@philips.com>
 
 License
 =======
-MIT
+License is MIT
 
 References
 ==========
-http://www.postgresql.org/docs/9.5/static/libpq-pgpass.html
-http://www.postgresql.org/docs/9.5/static/app-pgdump.html
+* [libpq-pgpass](https://www.postgresql.org/docs/current/libpq-pgpass.html)
+* [app-pgdump](https://www.postgresql.org/docs/current/static/app-pgdump.html)
